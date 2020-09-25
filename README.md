@@ -1,8 +1,6 @@
 # Tutorial-using-Openzeppelin
 Tutorial using Openzeppelin for complie, deploy and automated unit tests Solidity.
 
-***
-
 To run these tutorials, you must have the following installed:
 
 ```shell
