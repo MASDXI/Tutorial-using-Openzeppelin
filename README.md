@@ -3,29 +3,23 @@ Tutorial using Openzeppelin for complie, deploy and automated unit tests Solidit
 
 To run these tutorials, you must have the following installed:
 
-```shell
-
+```
 $ npm install
-
 ```
 
 for complile your smartcontract to get an abi and artifact of smartcontract for unit test using command.
 
-```shell
-
+```
 $ oz complie
-
 ```
 
 for unit testing smartcontract using command.
 
-```shell
-
-$ npm run unit-test
-
 ```
-expecting result 
-```shell
+$ npm run unit-test
+```
+expecting `unit-test` result 
+```
 > tutorial-openzeppelin@1.0.0 unit-test C:\Users\tutorial-openzeppelin
 > mocha --exit --recursive test
 
@@ -41,8 +35,7 @@ expecting result
 
 after testing if you want to deploy contract using command.
 
-```shell
-
+```
 $ oz deploy
 Nothing to compile, all contracts are up to date.
 ? Choose the kind of deployment regular
@@ -50,7 +43,6 @@ Nothing to compile, all contracts are up to date.
 ? Pick a contract to deploy Counter
 ✓ Deployed instance of Counter
 0x6B63A34f46e2b7C5Ba6Be52e32bcb846DE20416E
-
 ```
 your can edit deploy network endpoint at `network.js`.
 
