@@ -39,7 +39,7 @@ after testing if you want to deploy contract using command.
 $ oz deploy
 Nothing to compile, all contracts are up to date.
 ? Choose the kind of deployment regular
-? Pick a network ganache_gui
+? Pick a network development
 ? Pick a contract to deploy Counter
 ✓ Deployed instance of Counter
 0x6B63A34f46e2b7C5Ba6Be52e32bcb846DE20416E
