@@ -30,7 +30,6 @@ expecting `unit-test` result
     √ [SCENARIO]:: returns a value after set value (224ms)
     
   4 passing (3s)
-
 ```
 
 after testing if you want to deploy contract using command.
