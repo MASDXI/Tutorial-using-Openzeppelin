@@ -21,15 +21,28 @@ after testing if you want to deploy contract using command.
 
 ```shell
 
-oz deploy
+$ oz deploy
 Nothing to compile, all contracts are up to date.
-? Choose the kind of deployment (Use arrow keys)
-> regular       standard non-upgradeable contract
-  upgradeable   upgradeable instance using a delegating proxy (EIP1967) 
-  minimal       non-upgradeable minimal proxy instance (EIP1167)        
+? Choose the kind of deployment regular
+? Pick a network ganache_gui
+? Pick a contract to deploy Counter
+✓ Deployed instance of Counter
+0x6B63A34f46e2b7C5Ba6Be52e32bcb846DE20416E
 
 ```
+your can edit deploy network endpoint.
 
-
-
-
+```javascript
+module.exports = {
+  networks: {
+    development: {
+      protocol: 'http',
+      host: 'localhost',
+      port: 8545,
+      gas: 5000000,
+      gasPrice: 20000000000, //The price of gas in wei (defaults to 20000000000)
+      networkId: '*',
+    }
+  },
+};
+```
