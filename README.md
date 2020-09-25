@@ -7,7 +7,7 @@ To run these tutorials, you must have the following installed:
 
 ```shell
 
-npm install
+$ npm install
 
 ```
 
@@ -15,7 +15,29 @@ for complile your smartcontract to get an abi and artifact of smartcontract for 
 
 ```shell
 
-oz complie
+$ oz complie
+
+```
+
+for unit testing smartcontract using command.
+
+```shell
+
+$ npm run unit-test
+
+```
+expecting result 
+```shell
+> tutorial-openzeppelin@1.0.0 unit-test C:\Users\tutorial-openzeppelin
+> mocha --exit --recursive test
+
+  Automated Smart Contract Tests
+    √ [SCENARIO]:: returns a zero value (119ms)
+    √ [SCENARIO]:: returns a value after increase (328ms)
+    √ [SCENARIO]:: returns a value value after increase 2 times (376ms)
+    √ [SCENARIO]:: returns a value after set value (224ms)
+    
+  4 passing (3s)
 
 ```
 
