@@ -1,6 +1,8 @@
 # Tutorial-using-Openzeppelin
 Tutorial using Openzeppelin for complie, deploy and automated unit tests Solidity.
 
+***
+
 To run these tutorials, you must have the following installed:
 
 ```shell
@@ -30,7 +32,7 @@ Nothing to compile, all contracts are up to date.
 0x6B63A34f46e2b7C5Ba6Be52e32bcb846DE20416E
 
 ```
-your can edit deploy network endpoint.
+your can edit deploy network endpoint at `network.js`.
 
 ```javascript
 module.exports = {
