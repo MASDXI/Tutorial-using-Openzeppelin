@@ -2,6 +2,8 @@
 Tutorial using Openzeppelin for complie, deploy and automated unit tests Solidity.
 
 To run these tutorials, you must have the following installed:
+if you using import "@openzeppelin/"; in smartcontract file
+require install WSL if using window for development for compile smartcontract you need to use WSL terminal to compile
 
 ```
 $ npm install
