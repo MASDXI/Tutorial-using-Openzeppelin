@@ -1,4 +1,4 @@
-# Tutorial-using-Openzeppelin
+# Tutorial-using-Openzeppelin [Openzeppelin CLI SDK is not being actively developed]
 Tutorial using Openzeppelin for complie, deploy and automated unit tests Solidity.
 
 if you using `import "@openzeppelin/";`
